@@ -16,18 +16,37 @@
 		<p class='title'>Cozy&nbsp;House</p>
 		<p class='subtitle'>Shelter&nbsp;for&nbsp;pets&nbsp;in&nbsp;Boston</p></a>
 	</div>
+	<div class='burger_menu'>
+		<img src="img/burger.png" alt="burger_menu">
+	</div>
+	        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#about" class="nav-link active" data-i18="skills">About the shelter</a></li>
+            <li class="nav-item"><a href="our_pets.html" class="nav-link" data-i18="portfolio">Our pets</a></li>
+            <li class="nav-item"><a href="#help" class="nav-link" data-i18="video">Help the shelter</a></li>            
+            <li class="nav-item"><a href="#contacts" class="nav-link" data-i18="contacts">Contacts</a></li>
+          </ul>
+        </nav>
+		
+	        <div class="hamburger">
+          <div class="stripe stripe1"></div>
+          <div class="stripe stripe2"></div>
+          <div class="stripe stripe3"></div>
+        </div> 
 	<div class='main_menu'>
-	<nav>
+	<nav class='long_menu'>
 		<ul>
 	<li><p class="about">About&nbsp;the&nbsp;shelter</p></li>
 	<li><a href="our_pets.html">Our&nbsp;pets</a></li>
 	<li><a href="#help">Help&nbsp;the&nbsp;shelter</a></li>
 	<li><a href="#contacts">Contacts</a></li>
 		</ul>
-	</nav>		
+	</nav>
 	</div>
+
+		
 </div>
-<div class='start_screen'>  
+<div class='start_screen'>
 <!-- Not only -->
 <div class='content'>
 	<h1 class='start11'>Not&nbsp;only&nbsp;people need&nbsp;a&nbsp;house</h1>
@@ -58,28 +77,56 @@
 	<h2 class='pets_heading'>Our&nbsp;friends&nbsp;who are&nbsp;looking&nbsp;for&nbsp;a&nbsp;house</h2>
 </div>
 	<div class='pets_slider'>
-<div class='pets_slider_left'>
+<div class='pets_slider_left' id='pets_slider_left'>
 	<button class='pets_slider_left1'><img src="img/left.png" alt="LEFT"></button>	
 </div>
+<div class='carousel-wrapper' id='carousel-wrapper'>
+	<div class='carousel' id='carousel'>
+	<div class="item" id="item-left">
+		<div class="card11" id='card11'>1</div>
+		<div class="card12">1</div>
+		<div class="card13">1</div>
+	</div>
+	<div class="item" id="item-active">
 <div class='pets_slider1' id='pets_slider1'>
 	<img src="img/pet31.png" alt="Pretty cat">
-	<p class='pets_slider12'>Katrine</p>
+	<p class='pets_slider12' id='pets11'>Katrine</p>
 	<button class='pets_slider13' id='pets_slider13'>Learn&nbsp;more</button>
 </div>
-<div class='pets_slider2'>
+<div class='pets_slider2' id='pets_slider1'>
 	<img src="img/pet32.png" alt="Pretty dog">
-	<p class='pets_slider12'>Jennifer</p>
+	<p class='pets_slider12' id='pets12'>Jennifer</p>
 	<button class='pets_slider23'>Learn&nbsp;more</button>	
 </div>
-<div class='pets_slider2'>
+<div class='pets_slider3' id='pets_slider1'>
 	<img src="img/pet33.png" alt="Pretty dog">
-	<p class='pets_slider12'>Woody</p>
+	<p class='pets_slider12' id='pets13'>Woody</p>
 	<button class='pets_slider33'>Learn&nbsp;more</button>		
 </div>
-<div class='pets_slider_right'>
+</div>
+	<div class="item" id="item-right">
+		<div class="card">3</div>
+		<div class="card">3</div>
+		<div class="card">3</div>
+	</div>
+</div>
+</div>
+<div class='pets_slider_right' id ='pets_slider_right'>
 	<button class='pets_slider_right1'><img src="img/right.png" alt="RIGHT"></button>
 </div>	
 	</div>
+	
+	<div class='pets_slider320'>
+	<div class='pets_slider_left320'>
+	<button class='pets_slider_left1'><img src="img/left.png" alt="LEFT"></button>	
+</div>
+<div class='pets_slider_center320'>
+</div>
+<div class='pets_slider_right320'>
+	<button class='pets_slider_right1'><img src="img/right.png" alt="RIGHT"></button>
+</div>	
+	</div>
+	
 <div class='button_pets'>
 	<button class='button_pets1' onclick="window.location.href = 'our_pets.html';">Get&nbsp;to&nbsp;know&nbsp;the&nbsp;rest</button>
 </div>
@@ -141,15 +188,16 @@
 		<p class='donation_content2'>Name&nbsp;of&nbsp;the&nbsp;bank&nbsp;/&nbsp;Type&nbsp;of&nbsp;bank&nbsp;account</p>
 		<button class='donation_content3' onclick="window.location.href = '#';">
 		<span class='karta'>8380&nbsp;2880&nbsp;8028&nbsp;8791&nbsp;7435</span></button>
-		<p class='donation_content4'>Legal&nbsp;information&nbsp;and&nbsp;lorem&nbsp;ipsum&nbsp;dolor&nbsp;sit&nbsp;amet,&nbsp;consectetur adipiscing&nbsp;elit.&nbsp;Maecenas&nbsp;a&nbsp;ipsum&nbsp;at&nbsp;libero&nbsp;sagittis&nbsp;dignissim&nbsp;sed&nbsp;ac diam.&nbsp;Praesent&nbsp;ultrices&nbsp;maximus&nbsp;tortor&nbsp;et&nbsp;vulputate.&nbsp;Interdum&nbsp;et malesuada&nbsp;fames&nbsp;ac&nbsp;ante&nbsp;ipsum&nbsp;primis&nbsp;in&nbsp;faucibus.</p>
+		<p class='donation_content4'>Legal&nbsp;information&nbsp;and&nbsp;lorem&nbsp;ipsum&nbsp;dolor&nbsp;sit&nbsp;amet, consectetur adipiscing&nbsp;elit.&nbsp;Maecenas&nbsp;a&nbsp;ipsum&nbsp;at libero&nbsp;sagittis&nbsp;dignissim&nbsp;sed&nbsp;ac diam.&nbsp;Praesent ultrices&nbsp;maximus&nbsp;tortor&nbsp;et&nbsp;vulputate.&nbsp;Interdum&nbsp;et malesuada&nbsp;fames&nbsp;ac&nbsp;ante&nbsp;ipsum&nbsp;primis&nbsp;in&nbsp;faucibus.</p>
 	</div>	
 </div>
 </section>
 </main>
 <footer id='contacts'>
 <div class='size_footer'>
+
 	<div class='footer_contacts'>
-		<p class='footer_contacts1'>For&nbsp;questions and&nbsp;suggestions</p>
+		<p class='footer_contacts1'>For&nbsp;questions and suggestions</p>
 		<div class='footer_contacts2'>
 			<a href="mailto:email@shelter.com"><img src="img/letter.png" width="40" height="26" alt="E-mail"></a>
 			<p class='email'><a href="mailto:email@shelter.com">email@shelter.com</a></p>
@@ -160,22 +208,29 @@
 		</div>
 	</div>
 	<div class='footer_location'>
-		<p class='footer_location1'>We&nbsp;are&nbsp;waiting for&nbsp;your&nbsp;visit</p>
+		<p class='footer_location1'>We&nbsp;are&nbsp;waiting for your&nbsp;visit</p>
 		<div class='footer_location2'>
 			<a href='https://goo.gl/maps/y84symiLVAM75XCT9' target='_blank'><img src="img/place.png" width="22" height="32" alt="Geolocation"></a>
-			<p class='address1'>1&nbsp;Central&nbsp;Street,&nbsp;Boston (entrance&nbsp;from&nbsp;the&nbsp;store)</p>
+			<p class='address1'><a href='https://goo.gl/maps/y84symiLVAM75XCT9' target='_blank'>1&nbsp;Central&nbsp;Street,&nbsp;Boston (entrance&nbsp;from&nbsp;the&nbsp;store)</a></p>
 		</div>
 		<div class='footer_location3'>
 			<a href='https://goo.gl/maps/WiP6FJ1LRDfxciuh8' target='_blank'><img src="img/place.png" width="22" height="32" alt="Geolocation"></a>
-			<p class='address2'>18&nbsp;South&nbsp;Park,&nbsp;London</p>
+			<p class='address2'><a href='https://goo.gl/maps/WiP6FJ1LRDfxciuh8' target='_blank'>18&nbsp;South&nbsp;Park,&nbsp;London</a></p>
 		</div>
-	</div>	
 
+</div>
 	<div class='footer_puppy'>
 		<img src="img/pet6.png" alt="Puppy">
 	</div>
 		</div>
+	<div class='footer_puppy768'>
+		<img src="img/pet6.png" alt="Puppy">
+	</div>		
 </footer>
+		<div class="shadow">
+		<div class="popup"></div>
+		</div>
+
 <script src="index.js"></script>
 </body>
 </html>
